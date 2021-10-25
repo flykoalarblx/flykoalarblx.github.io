@@ -1,7 +1,7 @@
 
 var applyButton = document.getElementById("applyButton")
 if (applyButton) {
-    document.getElementById("applyButton").addEventListener("click", function() {
+    applyButton.addEventListener("click", function() {
         document.location = "apply.html"
     })
 } else {
