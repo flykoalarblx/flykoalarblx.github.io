@@ -1,3 +1,4 @@
+// Version 0.0.1
 
 var applyButton = document.getElementById("applyButton")
 if (applyButton) {
