@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>FlyKoala Official</title>
-        
+        <link rel="icon" href="klfavi.png" sizes="16x16" type="image/png">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Zen+Kaku+Gothic+New:wght@300&display=swap" rel="stylesheet">
         <style>
             body {
@@ -22,6 +22,7 @@
                 background-color: black;
             }
             .applysect {
+                display:inline-block;
                 position: absolute;
                 background-color: rgb(245, 245, 245);
                 border-radius: 5px;
@@ -45,7 +46,17 @@
             <h1 style="margin-left:1vw;font-family: Nunito;font-weight:300">Ground Crew</h1>
             <h2 style="margin-left:1vw;margin-right:1.2vw;font-family: Nunito;font-weight:300">Click here for the Ground Crew Application</h2>
         </div>
-        <script src="controller.js?v=0.0.1"></script>
+        <div class="applysect" style="margin-left:35vw;" id="ccapp">
+            <div style="background-color: rgb(12, 221, 12);border-radius:5px;"><h3 style="margin-top: 0;margin-left:0.5vw;font-family: Nunito;">Open</h3></div>
+            <h1 style="margin-left:1vw;font-family: Nunito;font-weight:300">Cabin Crew</h1>
+            <h2 style="margin-left:1vw;margin-right:1.2vw;font-family: Nunito;font-weight:300">Click here for the Cabin Crew Application</h2>
+        </div>
+        <div class="applysect" style="margin-left:67vw;" id="ccapp">
+            <div style="background-color: rgb(235, 8, 8);border-radius:5px;"><h3 style="margin-top: 0;margin-left:0.5vw;font-family: Nunito;">Closed</h3></div>
+            <h1 style="margin-left:1vw;font-family: Nunito;font-weight:300">Security</h1>
+            <h2 style="margin-left:1vw;margin-right:1.2vw;font-family: Nunito;font-weight:300">Security application is not available.</h2>
+        </div>
+        <script src="controller.js?v=0.0.2"></script>
         
 
     </body>
